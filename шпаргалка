@@ -1,0 +1,29 @@
+INSERT INTO table (column1, column2)
+VALUES (value1, value2);
+Добавление одной записи
+
+INSERT INTO table (column1, column2)
+VALUES (value11, value12),
+(value21, value22), ...;
+Добавление нескольких записей
+
+INSERT INTO table1 (column1, column2)
+SELECT (col1, col2) FROM table2;
+Добавление записей из другой таблицы
+
+UPDATE table1
+SET column1 = new_value;
+Обновление поля во всех записях
+
+UPDATE table1
+SET column1 = new_value,
+    column2 = new_value
+WHERE condition;
+Обновление поля во записях, соответствующих условию
+
+DELETE FROM table;
+Удаление всех записей
+
+DELETE FROM table
+WHERE condition;
+Удаление записей, соответствующих условию
